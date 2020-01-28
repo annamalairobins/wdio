@@ -17,3 +17,27 @@ getSum(5, 6)
 function (error) {   
    console.log(error);   
 });
+
+
+
+const newman = require('newman'),
+      fs = require('fs');
+
+newman.run({
+    collection: require('C:/Users/Admin/Desktop/Anna.postman_collection.json'),
+    reporters: 'cli'
+    
+}).on('request', function (error, pm) {
+    if (error) {
+        console.error(error);
+    }
+    else {
+        var jsonData = pm.response.json().data[0].employee_name;
+        console.log(jsonData)
+        fs.appendFile(`response.txt`, pm.response.stream, function (error) {
+            if (error) { 
+                console.error(error); 
+            }
+        });        
+    }
+});

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Writing test scripts" tests="4" time="1.802">
+  <testsuite name="Postman Echo GET" id="bb027796-c25f-4963-b70e-8014c1006af1" timestamp="2020-01-27T15:38:08.683Z" tests="0" failures="0" errors="0" time="1.001"/>
+  <testsuite name="Postman Echo POST" id="f915496d-8db7-4af0-84cd-db6c47df4cde" timestamp="2020-01-27T15:38:08.683Z" tests="0" failures="0" errors="0" time="0.269"/>
+  <testsuite name="Postman Echo PUT" id="7d97b8ba-2cab-444d-847b-bf36010be711" timestamp="2020-01-27T15:38:08.683Z" tests="0" failures="0" errors="0" time="0.266"/>
+  <testsuite name="Postman Echo DELETE" id="1f155cd8-6b86-42b9-b8e5-d9ceee799e4a" timestamp="2020-01-27T15:38:08.683Z" tests="0" failures="0" errors="0" time="0.266"/>
+</testsuites>

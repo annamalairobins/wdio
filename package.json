@@ -20,6 +20,7 @@
     "wdio-chromedriver-service": "^5.0.2"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "newman": "^4.5.7",
     "postman-request": "^2.88.1-postman.16"
   }
